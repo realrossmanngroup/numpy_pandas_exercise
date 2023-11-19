@@ -14,7 +14,6 @@ print(house_price_df[0].to_string() + '\n\n\n\n\n\n\n\n')
 '''
 
 #read retirement data
-
 us_retirement_data = pd.read_html('https://www.ssa.gov/oact/progdata/nra.html')
 
 print(us_retirement_data)
