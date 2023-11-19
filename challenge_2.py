@@ -24,9 +24,16 @@ print(f'A range from 1 to 30\n\n{d}\n\n')
 e = np.eye(7)
 print(f'Diagonal of 1s and 0s\n\n{e}\n\n')
 
+#make a matrix of ones
+f = np.ones((7,7))
+print(f'A matrix of ones\n\n{f}\n\n')
 
+#make an array of zeros
+g = np.zeros(7)
+print(f'An array of zeros\n\n{g}\n\n')
+
+
+#take a positive integer from the user & create a 1x10 array of random numbers
 y = int(input("Type a positive integer here:"))
-
 challenge_2 = np.random.randint(1, y, 10)
-
 print(challenge_2)
