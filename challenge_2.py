@@ -33,7 +33,10 @@ g = np.zeros(7)
 print(f'An array of zeros\n\n{g}\n\n')
 
 
-#take a positive integer from the user & create a 1x10 array of random numbers
+'''
+Challenge:
+take a positive integer from the user & create a 1x10 array of random numbers
+'''
 y = int(input("Type a positive integer here:"))
 challenge_2 = np.random.randint(1, y, 10)
 print(challenge_2)
